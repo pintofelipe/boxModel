@@ -14,19 +14,19 @@ header {
 
 section {
   background-color: green;
+  flex-direction: row-reverse;
   overflow: hidden;
+  display: flex;
 }
 
 
 nav {
   background-color: beige;
-  float: left;
   width: 25%;
 }
 
 article {
   background-color: aquamarine;
-  float: left;
   height: 80px;
   width: 75%;
 }
@@ -39,7 +39,7 @@ article {
 }
 
 footer {
-  /*clear: */
+  /*clear: both*/
   background-color: pink;
   height: 120px;
 }
